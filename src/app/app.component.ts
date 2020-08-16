@@ -33,7 +33,7 @@ export class AppComponent {
     this.child.webDataRocks.off('reportcomplete');
     this.child.webDataRocks.setReport({
       dataSource: {
-        filename: 'https://cdn.webdatarocks.com/data/data.json',
+        filename: '../assets/json-data.json',
       },
     });
   }

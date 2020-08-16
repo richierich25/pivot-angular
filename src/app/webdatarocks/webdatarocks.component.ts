@@ -2,7 +2,8 @@
 import * as WebDataRocks from 'webdatarocks';
 @Component({
     selector: 'app-wbr-pivot',
-    template: `<div><div class='wbr-ng-wrapper'></div></div>`
+    template: `<div class="wbr-ng-wrapper"></div>`,
+    styleUrls: ['./webdatarocks.component.css']
 })
 export class WebdatarocksComponent implements OnInit{
     // params
