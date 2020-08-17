@@ -16,7 +16,7 @@
             "allowedCommonJsDependencies": [
               "webdatarocks"
             ],
-            "outputPath": "dist/pivot-angular",
+            "outputPath": "docs/pivot-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -128,10 +128,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/Universal-Projects/BLOGEN/",
-            "message": "deploying latest BLOGEN Code",
-            "noBuild": true,
-            "noSilent": true
+            "baseHref": "/pivot-angular/pivot-angular/",
+            "message": "deploying latest pivot Code",
+            "noBuild": false,
+            "noSilent": true,
+            "dryRun": false
           }
         }
       }
