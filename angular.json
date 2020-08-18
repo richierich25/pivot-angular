@@ -1,3 +1,4 @@
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
@@ -129,10 +130,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "baseHref": "/pivot-angular/pivot-angular/",
-            "message": "deploying latest pivot Code",
-            "noBuild": false,
-            "noSilent": true,
-            "dryRun": false
+            "message": "deploying latest pivot angular10 code via angular-cli-ghpages",
           }
         }
       }

@@ -6,12 +6,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --baseHref=/pivot-angular/pivot-angular/",
-    "build:github": "ng build --prod --output-path docs/pivot-angular --baseHref=/pivot-angular/pivot-angular/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "build:github": "ng build --prod --output-path docs/pivot-angular --baseHref=/pivot-angular/pivot-angular/"
   },
   "private": true,
   "dependencies": {
